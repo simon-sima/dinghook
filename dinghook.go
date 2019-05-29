@@ -17,7 +17,8 @@ import (
 
 const (
 	// DingAPIURL api 地址
-	DingAPIURL = `https://oapi.dingtalk.com/robot/send?access_token=`
+	//DingAPIURL = `https://oapi.dingtalk.com/robot/send?access_token=`
+	DingAPIURL = `https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=`
 )
 
 // Result 发送结果
